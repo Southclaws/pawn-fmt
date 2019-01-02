@@ -16,7 +16,7 @@ build_script:
   - cmake --build . --config %CONFIGURATION%
 
 artifacts:
-  - path: test/plugins/$(configuration)/projectname.dll
+  - path: test/plugins/$(configuration)/fmt.dll
     name: Plugin
 
 deploy:
@@ -25,7 +25,7 @@ deploy:
     api_key:
       secure: Bdfem9a83asj2HOeyqxivFLgVJP0VAnWzlxZhJ46buc8imYqegz+fycY/jYim5po
     subject: southclaws
-    repo: samp-plugin-boilerplate
+    repo: pawn-fmt
     package: builds
     publish: true
     override: true

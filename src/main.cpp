@@ -1,13 +1,3 @@
-/*
-# main.cpp
-
-The "main" source file with most of the boilerplate code. Includes the
-`NativesMain` header for initialising plugin-natives.
-
-- `Supports` declares to the SA:MP server which features this plugin uses.
-- `Load` is called when the plugin loads and sets up the `logprintf` function.
-*/
-
 #include <amx/amx.h>
 #include <plugincommon.h>
 
@@ -29,7 +19,7 @@ PLUGIN_EXPORT bool PLUGIN_CALL Load(void** ppData)
 }
 
 extern "C" const AMX_NATIVE_INFO native_list[] = {
-    { "MyFunction", Natives::MyFunction },
+    { "Fmt", Natives::Fmt },
     { NULL, NULL }
 };
 

@@ -4,3 +4,6 @@
 [submodule "lib/cmake-modules"]
 	path = lib/cmake-modules
 	url = https://github.com/Zeex/cmake-modules
+[submodule "lib/fmt"]
+	path = lib/fmt
+	url = https://github.com/fmtlib/fmt

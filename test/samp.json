@@ -1,6 +1,6 @@
 {
   "gamemodes": ["test"],
-  "plugins": ["projectname"],
+  "plugins": ["fmt"],
   "rcon_password": ";,JoTh856/:?",
   "port": 7777,
   "hostname": "test",

@@ -1,21 +1,18 @@
 {
-  "user": "username",
-  "repo": "projectname",
+  "user": "Southclaws",
+  "repo": "pawn-fmt",
   "entry": "test.pwn",
   "output": "test/gamemodes/test.amx",
   "dependencies": ["Southclaws/samp-stdlib"],
   "dev_dependencies": ["pawn-lang/YSI-Includes"],
-  "runtime": {
-    "plugins": ["username/projectname"]
-  },
   "resources": [
     {
-      "name": "projectname.so",
+      "name": "fmt.so",
       "archive": false,
       "platform": "linux"
     },
     {
-      "name": "projectname.dll",
+      "name": "fmt.dll",
       "archive": false,
       "platform": "windows"
     }

@@ -1,7 +1,7 @@
 {
   "package": {
     "name": "builds",
-    "repo": "samp-plugin-boilerplate",
+    "repo": "pawn-fmt",
     "subject": "southclaws"
   },
   "version": {
@@ -9,7 +9,7 @@
   },
   "files": [
     {
-      "includePattern": "test/plugins/projectname.so",
+      "includePattern": "test/plugins/fmt.so",
       "uploadPattern": "$1",
       "matrixParams": {
         "override": 1

@@ -8,7 +8,7 @@ include_directories(
 	${SAMPSDK_INCLUDE_DIR}
 )
 
-add_samp_plugin(projectname
+add_samp_plugin(pawn-fmt
 	${SAMPSDK_DIR}/amxplugin.cpp
 	${SAMPSDK_DIR}/amxplugin2.cpp
 	${SAMPSDK_DIR}/amx/getch.c
@@ -20,3 +20,4 @@ add_samp_plugin(projectname
 	natives.hpp
 	plugin.def
 )
+set_target_properties(pawn-fmt PROPERTIES OUTPUT_NAME "fmt")

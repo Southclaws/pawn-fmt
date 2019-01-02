@@ -1,11 +1,5 @@
-/*
-# natives.hpp
-
-Contains all the `PAWN_NATIVE_DECL` for native function declarations.
-*/
-
-#ifndef PROJECTNAME_NATIVES_H
-#define PROJECTNAME_NATIVES_H
+#ifndef FMT_NATIVES_H
+#define FMT_NATIVES_H
 
 #include <string>
 
@@ -14,7 +8,7 @@ Contains all the `PAWN_NATIVE_DECL` for native function declarations.
 #include "common.hpp"
 
 namespace Natives {
-cell MyFunction(AMX* amx, cell* params);
+cell Fmt(AMX* amx, cell* params);
 }
 
 #endif

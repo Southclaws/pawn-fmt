@@ -3,14 +3,19 @@
 #include <a_samp>
 #include <YSI\y_testing>
 
-#include "../../PAWN_INCLUDE.inc"
+#include "fmt.inc"
 
 main() {
     //
 }
 
 Test:RunTest() {
-    new ret = MyFunction();
+    new dst[128];
+    
+    new ret = fmt(dst, "Hello {0:s}!", "world");
+
     printf("ret: %d", ret);
+
     ASSERT(ret == 1);
+    ASSERT(!strcmp(dst, "Hello world!", false));
 }
